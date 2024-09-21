@@ -1,4 +1,4 @@
-## CT-SAM3D
+# CT-SAM3D Inference Pipeline
 Towards a Comprehensive, Efficient and Promptable Anatomic Structure Segmentation Model using 3D Whole-body CT Scans.
 
 ## Overview
