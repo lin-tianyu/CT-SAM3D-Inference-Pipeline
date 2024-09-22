@@ -3,9 +3,9 @@ Towards a Comprehensive, Efficient and Promptable Anatomic Structure Segmentatio
 
 ## News
 - Update 09/22/2024:
-  - [x] environment set
+  - [x] set environment 
   - [x] build test sample: can add dots and get Dice result
-  - [] visualization: NO VISUALIZATION
+  - [ ] visualization: NO VISUALIZATION
       
 ![Alt text](assets/no-visual.png)
 
