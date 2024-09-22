@@ -1,6 +1,17 @@
 # CT-SAM3D Inference Pipeline
 Towards a Comprehensive, Efficient and Promptable Anatomic Structure Segmentation Model using 3D Whole-body CT Scans.
 
+## News
+- Update 09/22/2024:
+  - [x] environment set
+  - [x] build test sample: can add dots and get Dice result
+  - [] visualization: NO VISUALIZATION
+      
+![Alt text](assets/no-visual.png)
+
+
+
+
 ## Overview
 ![architecture](ct_sam/figures/arch.png)
 
