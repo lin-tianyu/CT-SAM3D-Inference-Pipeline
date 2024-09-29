@@ -1,11 +1,18 @@
 # CT-SAM3D Inference Pipeline
-Towards a Comprehensive, Efficient and Promptable Anatomic Structure Segmentation Model using 3D Whole-body CT Scans.
+<!-- Towards a Comprehensive, Efficient and Promptable Anatomic Structure Segmentation Model using 3D Whole-body CT Scans. -->
+> Author: Tianyu Lin
 
 ## News
+- Update 09/29/2024:
+  - [x] Sample point prompt(s) from postprocessed pseudo label for automatic segmentation:
+    1. Get pseudo label from a pretrained segmentation model
+    2. Conduct DAPAtlas postprocessing or my postprocessing method on pseudo label
+    3. Sample a single point for each pseudo label as prompt for CT-SAM3D segmentation
+    - Inference code in: `./ct_sam/notebooks/point2seg.ipynb`
 - Update 09/22/2024:
   - [x] set environment 
   - [x] build test sample: can add dots and get Dice result
-  - [ ] visualization: NO VISUALIZATION
+  - ~~[ ] visualization: NO VISUALIZATION~~
       
 ![Alt text](assets/no-visual.png)
 
