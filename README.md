@@ -12,7 +12,7 @@
 - Update 09/22/2024:
   - [x] set environment 
   - [x] build test sample: can add dots and get Dice result
-  - ~~[ ] visualization: NO VISUALIZATION~~
+  - [ ] ~~visualization: NO VISUALIZATION~~
       
 ![Alt text](assets/no-visual.png)
 
